@@ -77,14 +77,14 @@ const Home = () => (
     <section className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 mt-8">
       <div className="max-w-3xl">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
-          Digital Transformation & <br className="hidden md:block"/>
-          <span className="text-blue-600">Evaluation Specialist</span>
+          Development Professional & <br className="hidden md:block"/>
+          <span className="text-blue-600">Digital Transformation Specialist</span>
         </h1>
         <h2 className="text-xl md:text-2xl text-gray-600 mb-6 font-light">
           Targeting: UNDP Digital/AI Skilling Project Manager
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
-          Technology and evaluation specialist with 5+ years of experience in the development sector, specializing in tech-enabled capacity building and cross-sector partnerships. I have a proven track record of scaling digital solutions in resource-constrained environments across the Global South.
+          A dedicated development professional with a Bachelor’s in IT and 4+ years of experience since 2021 with organizations like Swisscontact, UNFPA, GAIN, FES, ActionAid, and Radda. I specialize in digital transformation, project management, and capacity-building. I have a proven track record of handling end-to-end project management, digital upskilling, and cross-sector partnership management across government, NGOs, and the private sector in the Global South.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link to="/experience" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-all">
@@ -100,18 +100,18 @@ const Home = () => (
     <div className="grid md:grid-cols-3 gap-6">
       <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start">
         <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Code size={24} /></div>
-        <h3 className="font-bold text-gray-900 mb-2">Digital Upskilling</h3>
-        <p className="text-gray-600 text-sm">Led AI and digital tool integration (Power BI, NotebookLM) to streamline workflows and reduce processing time by 40%.</p>
+        <h3 className="font-bold text-gray-900 mb-2">Digital Upskilling & AI</h3>
+        <p className="text-gray-600 text-sm">Specialized in integrating AI workflows (NotebookLM, Power BI) and digital tools into government and NGO operations, reducing data processing time by 40%.</p>
       </div>
       <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start">
         <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Briefcase size={24} /></div>
-        <h3 className="font-bold text-gray-900 mb-2">Project Management</h3>
-        <p className="text-gray-600 text-sm">End-to-end management of tech-enabled capacity development and partnerships across government, NGOs, and the private sector.</p>
+        <h3 className="font-bold text-gray-900 mb-2">Programme Coordination</h3>
+        <p className="text-gray-600 text-sm">Extensive experience managing multi-sector programmes, policy support, and public-private partnerships to strengthen skills ecosystems and agribusiness.</p>
       </div>
       <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start">
         <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Award size={24} /></div>
-        <h3 className="font-bold text-gray-900 mb-2">Scale & Impact</h3>
-        <p className="text-gray-600 text-sm">Scaled a digital health platform reaching over 185,000 individuals and built Bangladesh’s first open-source LMS for paramedics.</p>
+        <h3 className="font-bold text-gray-900 mb-2">Impact at Scale</h3>
+        <p className="text-gray-600 text-sm">Scaled a digital health platform to reach 185,000+ individuals and built Bangladesh’s first open-source LMS ecosystem for paramedics.</p>
       </div>
     </div>
   </div>
@@ -124,19 +124,20 @@ const Experience = () => {
       company: "Swisscontact",
       date: "Jan 2024 - Present",
       bullets: [
-        "Coordinate multi-sector programme activities across 70+ manufacturing and agro-processing enterprises, delivering large-scale skills and technical assistance.",
+        "Coordinate multi-sector programme activities across 70+ manufacturing and agro-processing enterprises, supporting the delivery of large-scale skills and technical assistance.",
         "Facilitate engagement between government agencies, private sector actors, and development partners to strengthen workforce systems.",
-        "Built and managed learning ecosystems (LMS) and integrated digital workflows into training methodologies."
+        "Built and managed learning ecosystems, including spearheading Bangladesh’s first open-source LMS for paramedics.",
+        "Prepare analytical briefs and manage high-level stakeholder workshops, business expos, and policy dialogues."
       ]
     },
     {
-      title: "Officer - Skills Training & Implementation",
+      title: "Officer - Skills Training & Implementation (BYETS project)",
       company: "Swisscontact",
       date: "Jan 2023 - Dec 2023",
       bullets: [
-        "Supported operational planning and delivery of 4,000+ structured training opportunities.",
-        "Conducted sector-informed needs assessments and prepared analytical briefs for senior management.",
-        "Maintained structured documentation and monitoring systems to track performance indicators."
+        "Supported operational planning and implementation of skills initiatives in export-oriented sectors.",
+        "Conducted sector-informed needs assessments and managed coordination with national and international service providers.",
+        "Contributed to the delivery of 4,000+ structured training opportunities aligned with decent work and productivity improvement goals."
       ]
     },
     {
@@ -145,8 +146,26 @@ const Experience = () => {
       date: "2021 - Present (Various)",
       bullets: [
         "Led digital upskilling, curriculum co-design, and national-level evaluation initiatives.",
-        "Integrated AI and digital tools into government and NGO workflows to streamline project management.",
-        "Produced data-driven knowledge products and coordinated institutional engagements to strengthen visibility."
+        "Integrated AI and digital tools into government and NGO workflows to streamline project management and training delivery.",
+        "Scaled a digital health platform to reach over 185,000 individuals in resource-constrained environments."
+      ]
+    },
+    {
+      title: "Communication Officer (Uttoron - Skills for better life)",
+      company: "Swisscontact",
+      date: "Sep 2021 - Dec 2022",
+      bullets: [
+        "Produced briefing materials and knowledge products for donors, government stakeholders, and industry partners.",
+        "Supported the establishment of public-private vocational centres contributing to local economic development."
+      ]
+    },
+    {
+      title: "Fellow - MMWW Project, MEAL Unit",
+      company: "ActionAid Bangladesh",
+      date: "Nov 2020 - Jul 2021",
+      bullets: [
+        "Developed donor reports and analyzed data utilizing web-based systems and evidence.",
+        "Led concept note development, event management, and maintained the MIS systems for project tracking."
       ]
     }
   ];
@@ -155,7 +174,7 @@ const Experience = () => {
     <div className="max-w-4xl animate-in fade-in duration-500">
       <div className="mb-10">
         <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><Briefcase className="mr-3 text-blue-600" /> Professional Experience</h2>
-        <p className="text-gray-600">Over 5 years of experience driving impact in the development sector.</p>
+        <p className="text-gray-600">A timeline of my professional journey in the development and tech sectors.</p>
       </div>
       
       <div className="space-y-8">
@@ -189,16 +208,20 @@ const Experience = () => {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Digital & AI Transformation",
-      skills: ["AI Workflows", "NotebookLM", "LMS Architecture", "Digital Upskilling", "Data Systems & Dashboards", "Power BI"]
+      title: "Digital Transformation & IT",
+      skills: ["AI Workflows", "NotebookLM", "Power BI", "LMS Architecture", "Digital Upskilling", "Web-based MIS Systems"]
     },
     {
       title: "Project Management",
-      skills: ["End-to-End Delivery", "Cross-Sector Partnerships", "Stakeholder Engagement", "Monitoring & Evaluation", "Capacity Building", "Resource Allocation"]
+      skills: ["End-to-End Delivery", "Policy Support", "Program Coordination", "MEAL (Monitoring & Evaluation)", "Education Management"]
     },
     {
       title: "Sector Expertise",
-      skills: ["Development Sector", "Public-Private Partnerships", "Curriculum Co-design", "Global South Context", "Agribusiness", "Skills Ecosystems"]
+      skills: ["Development Sector", "Public-Private Partnerships", "Curriculum Co-design", "Agribusiness", "Skills Ecosystems"]
+    },
+    {
+      title: "Languages",
+      skills: ["English (Full Professional)", "Bengali (Native/Bilingual)", "Spanish (Limited Working)"]
     }
   ];
 
@@ -206,7 +229,7 @@ const Skills = () => {
     <div className="max-w-4xl animate-in fade-in duration-500">
       <div className="mb-10">
         <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><User className="mr-3 text-blue-600" /> Core Competencies</h2>
-        <p className="text-gray-600">Technical and strategic skills tailored for Digital Transformation roles.</p>
+        <p className="text-gray-600">Technical and strategic skills developed across the Global South context.</p>
       </div>
 
       <div className="space-y-8">
@@ -226,14 +249,18 @@ const Skills = () => {
 
       <div className="mt-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
         <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center"><BookOpen className="mr-3 text-blue-600" /> Education</h3>
-        <div className="space-y-4">
+        <div className="space-y-6">
           <div>
             <h4 className="font-bold text-gray-800">Master's of Social Science, Development Studies</h4>
-            <p className="text-gray-600">University of Dhaka</p>
+            <p className="text-gray-600">University of Dhaka (2018 - 2019)</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800">Bachelor's in IT / Social Science, Development Studies</h4>
-            <p className="text-gray-600">University of Dhaka</p>
+            <h4 className="font-bold text-gray-800">Bachelor's of IT & Social Science, Development Studies</h4>
+            <p className="text-gray-600">University of Dhaka (2014 - 2018)</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800">Higher Secondary Certificate (HSC), Humanities</h4>
+            <p className="text-gray-600">Amrita Lal Dey College (2010 - 2012)</p>
           </div>
         </div>
       </div>
@@ -246,20 +273,20 @@ const Projects = () => {
     {
       title: "Digital Health Platform Scaling",
       org: "UNFPA / Partner Orgs",
-      description: "Scaled a digital health platform to reach over 185,000 individuals, ensuring accessibility and robust data tracking in a resource-constrained context.",
+      description: "Scaled a digital health platform to reach over 185,000 individuals, ensuring accessibility and robust data tracking in a resource-constrained development context.",
       tags: ["Digital Health", "Scale-up", "Data Tracking"]
     },
     {
       title: "Open-Source Paramedic LMS",
       org: "Swisscontact",
-      description: "Spearheaded the development and launch of Bangladesh's first open-source Learning Management System specifically designed for paramedics.",
-      tags: ["LMS Architecture", "EdTech", "Open Source"]
+      description: "Spearheaded the development and launch of Bangladesh's first open-source Learning Management System specifically designed to upskill paramedics.",
+      tags: ["LMS Architecture", "EdTech", "Capacity Building"]
     },
     {
       title: "AI-Powered Workflow Integration",
-      org: "Internal Development",
-      description: "Integrated AI tools and automated digital workflows into data processing systems, successfully reducing processing and reporting time by 40%.",
-      tags: ["AI Integration", "Process Automation", "Efficiency"]
+      org: "Development Sector Implementation",
+      description: "Integrated AI tools (NotebookLM, Power BI) and automated digital workflows into data processing systems, successfully reducing processing and reporting time by 40%.",
+      tags: ["AI Integration", "Process Automation", "Power BI"]
     }
   ];
 
@@ -299,7 +326,7 @@ const Contact = () => (
     </div>
     <h2 className="text-3xl font-bold text-gray-900 mb-4">Let's Connect</h2>
     <p className="text-lg text-gray-600 mb-8">
-      I am currently seeking opportunities like the UNDP Digital/AI Skilling Project Manager role, where I can leverage my experience in digital transformation.
+      I am highly motivated to leverage my background in IT and 4+ years of development sector experience for the UNDP Digital/AI Skilling Project Manager role.
     </p>
     
     <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center">

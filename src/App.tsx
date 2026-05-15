@@ -15,8 +15,8 @@ const Navigation = () => {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/experience', label: 'Experience' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/skills', label: 'Skills' },
+    { path: '/projects', label: 'Initiatives' },
+    { path: '/skills', label: 'Skills & Education' },
     { path: '/contact', label: 'Contact' },
   ];
 
@@ -78,20 +78,20 @@ const Home = () => (
       <div className="max-w-3xl">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
           Development Professional & <br className="hidden md:block"/>
-          <span className="text-blue-600">Digital Transformation Specialist</span>
+          <span className="text-blue-600">Programme Coordinator</span>
         </h1>
         <h2 className="text-xl md:text-2xl text-gray-600 mb-6 font-light">
-          Targeting: UNDP Digital/AI Skilling Project Manager
+          Skills Ecosystems, Agribusiness & Trade Public-Private Partnerships
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
-          A dedicated development professional with a Bachelor’s in IT and 4+ years of experience since 2021 with organizations like Swisscontact, UNFPA, GAIN, FES, ActionAid, and Radda. I specialize in digital transformation, project management, and capacity-building. I have a proven track record of handling end-to-end project management, digital upskilling, and cross-sector partnership management across government, NGOs, and the private sector in the Global South.
+          A dedicated development professional based in Dhaka, Bangladesh, with a Master's in Development Studies from the University of Dhaka. Extensive experience in program coordination, policy support, and education management. Proven track record of facilitating engagement between government agencies, private sector actors, and development partners to strengthen workforce systems.
         </p>
         <div className="flex flex-wrap gap-4">
           <Link to="/experience" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition-all">
-            View My Experience
+            View Experience
           </Link>
           <Link to="/projects" className="inline-flex items-center justify-center px-6 py-3 border border-gray-200 text-base font-medium rounded-full text-gray-700 bg-white hover:bg-gray-50 shadow-sm transition-all">
-            See Digital Projects
+            See Initiatives
           </Link>
         </div>
       </div>
@@ -99,19 +99,19 @@ const Home = () => (
 
     <div className="grid md:grid-cols-3 gap-6">
       <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start">
-        <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Code size={24} /></div>
-        <h3 className="font-bold text-gray-900 mb-2">Digital Upskilling & AI</h3>
-        <p className="text-gray-600 text-sm">Specialized in integrating AI workflows (NotebookLM, Power BI) and digital tools into government and NGO operations, reducing data processing time by 40%.</p>
+        <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Briefcase size={24} /></div>
+        <h3 className="font-bold text-gray-900 mb-2">Program Coordination</h3>
+        <p className="text-gray-600 text-sm">Extensive experience managing multi-sector programmes, coordinating with 70+ enterprises, and overseeing large-scale skills and technical assistance interventions.</p>
       </div>
       <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start">
-        <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Briefcase size={24} /></div>
-        <h3 className="font-bold text-gray-900 mb-2">Programme Coordination</h3>
-        <p className="text-gray-600 text-sm">Extensive experience managing multi-sector programmes, policy support, and public-private partnerships to strengthen skills ecosystems and agribusiness.</p>
+        <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><User size={24} /></div>
+        <h3 className="font-bold text-gray-900 mb-2">Public-Private Partnerships</h3>
+        <p className="text-gray-600 text-sm">Facilitated engagement between government policymakers, private sector actors, and service providers to strengthen sector competitiveness.</p>
       </div>
       <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-start">
         <div className="p-3 bg-blue-50 text-blue-600 rounded-xl mb-4"><Award size={24} /></div>
-        <h3 className="font-bold text-gray-900 mb-2">Impact at Scale</h3>
-        <p className="text-gray-600 text-sm">Scaled a digital health platform to reach 185,000+ individuals and built Bangladesh’s first open-source LMS ecosystem for paramedics.</p>
+        <h3 className="font-bold text-gray-900 mb-2">Policy Support & MEAL</h3>
+        <p className="text-gray-600 text-sm">Skilled in developing analytical briefs, monitoring performance indicators, preparing donor reports, and organizing high-level policy dialogue events.</p>
       </div>
     </div>
   </div>
@@ -124,10 +124,12 @@ const Experience = () => {
       company: "Swisscontact",
       date: "Jan 2024 - Present",
       bullets: [
-        "Coordinate multi-sector programme activities across 70+ manufacturing and agro-processing enterprises, supporting the delivery of large-scale skills and technical assistance.",
-        "Facilitate engagement between government agencies, private sector actors, and development partners to strengthen workforce systems.",
-        "Built and managed learning ecosystems, including spearheading Bangladesh’s first open-source LMS for paramedics.",
-        "Prepare analytical briefs and manage high-level stakeholder workshops, business expos, and policy dialogues."
+        "Coordinate multi-sector programme activities across 70+ manufacturing and agro-processing enterprises, supporting delivery of large-scale skills and technical assistance interventions.",
+        "Facilitate engagement between government agencies, private sector actors, development partners, and service providers to strengthen workforce systems and sector competitiveness.",
+        "Prepare analytical briefs, structured reports, and presentation materials to inform senior management and stakeholder decision-making.",
+        "Support organisation of high-level workshops, stakeholder consultations, business expos, and policy dialogue events involving public and private institutions.",
+        "Contribute to implementation of interventions aligned with export readiness, responsible business practices, and green-growth priorities.",
+        "Maintain structured documentation and monitoring systems to track progress, performance indicators, and stakeholder coordination outputs."
       ]
     },
     {
@@ -135,19 +137,10 @@ const Experience = () => {
       company: "Swisscontact",
       date: "Jan 2023 - Dec 2023",
       bullets: [
-        "Supported operational planning and implementation of skills initiatives in export-oriented sectors.",
-        "Conducted sector-informed needs assessments and managed coordination with national and international service providers.",
-        "Contributed to the delivery of 4,000+ structured training opportunities aligned with decent work and productivity improvement goals."
-      ]
-    },
-    {
-      title: "Consultant / Project Specialist",
-      company: "UNFPA, GAIN, FES, Radda",
-      date: "2021 - Present (Various)",
-      bullets: [
-        "Led digital upskilling, curriculum co-design, and national-level evaluation initiatives.",
-        "Integrated AI and digital tools into government and NGO workflows to streamline project management and training delivery.",
-        "Scaled a digital health platform to reach over 185,000 individuals in resource-constrained environments."
+        "Supported operational planning and implementation of skills initiatives in export-oriented sectors through coordination with industry experts and policy counterparts.",
+        "Conducted sector-informed needs assessments to ensure market relevance and workforce alignment.",
+        "Managed coordination with national and international service providers, ensuring compliance, reporting, and quality assurance.",
+        "Contributed to delivery of 4,000+ structured training opportunities aligned with decent work and productivity improvement goals."
       ]
     },
     {
@@ -155,8 +148,9 @@ const Experience = () => {
       company: "Swisscontact",
       date: "Sep 2021 - Dec 2022",
       bullets: [
-        "Produced briefing materials and knowledge products for donors, government stakeholders, and industry partners.",
-        "Supported the establishment of public-private vocational centres contributing to local economic development."
+        "Produced briefing materials, communication outputs, and knowledge products for donors, government stakeholders, and industry partners.",
+        "Coordinated multi-stakeholder events and institutional engagements to strengthen visibility and cross-sector collaboration.",
+        "Supported establishment of public-private vocational centres contributing to local economic development."
       ]
     },
     {
@@ -165,7 +159,28 @@ const Experience = () => {
       date: "Nov 2020 - Jul 2021",
       bullets: [
         "Developed donor reports and analyzed data utilizing web-based systems and evidence.",
-        "Led concept note development, event management, and maintained the MIS systems for project tracking."
+        "Handled concept note development, event management, and proposal development.",
+        "Regularly updated project information in AAB's MIS system."
+      ]
+    },
+    {
+      title: "Intern, Dialogue & Communication",
+      company: "Centre for Policy Dialogue (CPD)",
+      date: "Mar 2020 - Jun 2020",
+      bullets: [
+        "Communicated with related stakeholders, including government policymakers and media for CPD press briefings.",
+        "Organised \"VNR 2020 of Bangladesh: Positioning Non-State Actors\" as The Citizen's Platform for SDGS.",
+        "Communicated with electronic and print media persons regularly about updated program schedules."
+      ]
+    },
+    {
+      title: "Assistant Director",
+      company: "Filmy Features",
+      date: "Feb 2019 - Feb 2020",
+      bullets: [
+        "Oversaw pre-production processes and procedures such as film scripting and choosing filming locations.",
+        "Worked with a highly qualified team on popular Television and online commercials.",
+        "Achieved expertise in documentary film making and cinematography."
       ]
     }
   ];
@@ -174,7 +189,7 @@ const Experience = () => {
     <div className="max-w-4xl animate-in fade-in duration-500">
       <div className="mb-10">
         <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><Briefcase className="mr-3 text-blue-600" /> Professional Experience</h2>
-        <p className="text-gray-600">A timeline of my professional journey in the development and tech sectors.</p>
+        <p className="text-gray-600">A timeline of professional roles in program coordination, MEAL, and communications.</p>
       </div>
       
       <div className="space-y-8">
@@ -186,7 +201,7 @@ const Experience = () => {
                 <h3 className="text-xl font-bold text-gray-900">{job.title}</h3>
                 <p className="text-lg text-blue-600 font-medium">{job.company}</p>
               </div>
-              <span className="inline-block mt-2 md:mt-0 px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm font-medium">
+              <span className="inline-block mt-2 md:mt-0 px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm font-medium text-right md:text-left">
                 {job.date}
               </span>
             </div>
@@ -208,28 +223,28 @@ const Experience = () => {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Digital Transformation & IT",
-      skills: ["AI Workflows", "NotebookLM", "Power BI", "LMS Architecture", "Digital Upskilling", "Web-based MIS Systems"]
+      title: "Core Competencies",
+      skills: ["Policy Support", "Program Coordination", "Education Management", "Public-Private Partnerships", "Agribusiness & Trade", "Skills Ecosystems"]
     },
     {
-      title: "Project Management",
-      skills: ["End-to-End Delivery", "Policy Support", "Program Coordination", "MEAL (Monitoring & Evaluation)", "Education Management"]
+      title: "Project Management & MEAL",
+      skills: ["Monitoring & Evaluation", "Donor Reporting", "Needs Assessments", "Stakeholder Consultations", "Event Management", "MIS Systems"]
     },
     {
-      title: "Sector Expertise",
-      skills: ["Development Sector", "Public-Private Partnerships", "Curriculum Co-design", "Agribusiness", "Skills Ecosystems"]
+      title: "Communications & Media",
+      skills: ["Knowledge Products", "Analytical Briefs", "Press Briefings", "Documentary Filmmaking", "Scripting", "Pre-production"]
     },
     {
       title: "Languages",
-      skills: ["English (Full Professional)", "Bengali (Native/Bilingual)", "Spanish (Limited Working)"]
+      skills: ["Bengali (Native or Bilingual)", "English (Full Professional)", "Spanish (Limited Working)"]
     }
   ];
 
   return (
     <div className="max-w-4xl animate-in fade-in duration-500">
       <div className="mb-10">
-        <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><User className="mr-3 text-blue-600" /> Core Competencies</h2>
-        <p className="text-gray-600">Technical and strategic skills developed across the Global South context.</p>
+        <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><User className="mr-3 text-blue-600" /> Skills & Education</h2>
+        <p className="text-gray-600">Top skills and academic background.</p>
       </div>
 
       <div className="space-y-8">
@@ -248,19 +263,23 @@ const Skills = () => {
       </div>
 
       <div className="mt-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center"><BookOpen className="mr-3 text-blue-600" /> Education</h3>
+        <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center"><BookOpen className="mr-3 text-blue-600" /> Academic Qualifications</h3>
         <div className="space-y-6">
-          <div>
-            <h4 className="font-bold text-gray-800">Master's of Social Science, Development Studies</h4>
+          <div className="border-l-4 border-blue-600 pl-4">
+            <h4 className="text-lg font-bold text-gray-900">Master's of Social Science, Development Studies</h4>
             <p className="text-gray-600">University of Dhaka (2018 - 2019)</p>
           </div>
-          <div>
-            <h4 className="font-bold text-gray-800">Bachelor's of IT & Social Science, Development Studies</h4>
+          <div className="border-l-4 border-blue-400 pl-4">
+            <h4 className="text-lg font-bold text-gray-900">Bachelor's of Social Science, Development Studies</h4>
             <p className="text-gray-600">University of Dhaka (2014 - 2018)</p>
           </div>
-          <div>
-            <h4 className="font-bold text-gray-800">Higher Secondary Certificate (HSC), Humanities</h4>
+          <div className="border-l-4 border-gray-300 pl-4">
+            <h4 className="text-lg font-bold text-gray-900">Higher Secondary Certificate (HSC), Humanities</h4>
             <p className="text-gray-600">Amrita Lal Dey College (2010 - 2012)</p>
+          </div>
+          <div className="border-l-4 border-gray-200 pl-4">
+            <h4 className="text-lg font-bold text-gray-900">Secondary School Certificate (SSC), Science</h4>
+            <p className="text-gray-600">Barisal Government Girls High School (2008 - 2010)</p>
           </div>
         </div>
       </div>
@@ -271,30 +290,36 @@ const Skills = () => {
 const Projects = () => {
   const projects = [
     {
-      title: "Digital Health Platform Scaling",
-      org: "UNFPA / Partner Orgs",
-      description: "Scaled a digital health platform to reach over 185,000 individuals, ensuring accessibility and robust data tracking in a resource-constrained development context.",
-      tags: ["Digital Health", "Scale-up", "Data Tracking"]
-    },
-    {
-      title: "Open-Source Paramedic LMS",
+      title: "BYETS Project Interventions",
       org: "Swisscontact",
-      description: "Spearheaded the development and launch of Bangladesh's first open-source Learning Management System specifically designed to upskill paramedics.",
-      tags: ["LMS Architecture", "EdTech", "Capacity Building"]
+      description: "Supported operational planning and delivered 4,000+ structured training opportunities in export-oriented sectors, ensuring compliance and quality assurance with national service providers.",
+      tags: ["Skills Training", "Export Readiness", "Needs Assessment"]
     },
     {
-      title: "AI-Powered Workflow Integration",
-      org: "Development Sector Implementation",
-      description: "Integrated AI tools (NotebookLM, Power BI) and automated digital workflows into data processing systems, successfully reducing processing and reporting time by 40%.",
-      tags: ["AI Integration", "Process Automation", "Power BI"]
+      title: "Uttoron - Skills for Better Life",
+      org: "Swisscontact",
+      description: "Coordinated institutional engagements and supported the establishment of public-private vocational centres to contribute to local economic development.",
+      tags: ["Vocational Centres", "Public-Private Partnership", "Communications"]
+    },
+    {
+      title: "VNR 2020 of Bangladesh: Positioning Non-State Actors",
+      org: "Centre for Policy Dialogue (CPD)",
+      description: "Organised the Citizen's Platform for SDGS event, facilitating communication with government policymakers and media for press briefings.",
+      tags: ["Event Management", "Policy Dialogue", "SDGs"]
+    },
+    {
+      title: "MMWW Project Implementation",
+      org: "ActionAid Bangladesh",
+      description: "Maintained the MIS system, updated project information, and analyzed data utilizing web-based systems to develop comprehensive donor reports.",
+      tags: ["MEAL", "Data Analysis", "Donor Reporting"]
     }
   ];
 
   return (
     <div className="max-w-4xl animate-in fade-in duration-500">
       <div className="mb-10">
-        <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><Code className="mr-3 text-blue-600" /> Digital Projects & Impact</h2>
-        <p className="text-gray-600">Highlighting key tech-enabled implementations and capacity-building initiatives.</p>
+        <h2 className="text-3xl font-bold text-gray-900 mb-3 flex items-center"><Code className="mr-3 text-blue-600" /> Key Initiatives & Interventions</h2>
+        <p className="text-gray-600">Major projects and programmatic interventions supported throughout my career.</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
@@ -324,9 +349,9 @@ const Contact = () => (
     <div className="inline-flex items-center justify-center p-4 bg-blue-50 text-blue-600 rounded-full mb-6">
       <Mail size={32} />
     </div>
-    <h2 className="text-3xl font-bold text-gray-900 mb-4">Let's Connect</h2>
+    <h2 className="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h2>
     <p className="text-lg text-gray-600 mb-8">
-      I am highly motivated to leverage my background in IT and 4+ years of development sector experience for the UNDP Digital/AI Skilling Project Manager role.
+      Interested in connecting for opportunities in program coordination, policy support, or education management? Feel free to reach out.
     </p>
     
     <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center">
